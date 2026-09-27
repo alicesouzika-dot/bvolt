@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { motion, useDragControls } from "motion/react";
 
 export default function WhatsAppButton() {

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+
+  --color-brand-black: #0A0A0A;
+  --color-brand-charcoal: #151515;
+  --color-brand-yellow: #BCCF42;
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #BFBFBF;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-brand-black);
+    color: var(--color-brand-white);
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Custom Glow scrollbar for premium feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0A0A0A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #BCCF42;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a3be2f;
+  }
+}
+
+/* Custom glow utility for cards and hover accents */
+.shadow-neon-yellow {
+  box-shadow: 0 0 15px rgba(188, 207, 66, 0.15);
+}
+
+.shadow-neon-yellow-hover:hover {
+  box-shadow: 0 0 25px rgba(188, 207, 66, 0.4);
+}
+
+.text-glow-yellow {
+  text-shadow: 0 0 10px rgba(188, 207, 66, 0.5);
+}
+
+/* Base custom classes to support sleek styles */
+.gradient-overlay-dark {
+  background: linear-gradient(to top, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 0.4) 50%, rgba(10, 10, 10, 0.8) 100%);
+}
+
+.gradient-overlay-card {
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.4) 100%);
+}
+

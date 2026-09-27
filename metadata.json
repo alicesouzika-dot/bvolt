@@ -1,0 +1,6 @@
+{
+  "name": "BVolt Academia",
+  "description": "Website institucional premium da BVolt Academia - alta performance, estrutura moderna e treinos personalizados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

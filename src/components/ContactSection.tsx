@@ -87,7 +87,7 @@ export default function ContactSection() {
 
   return (
     <section id="contato" className="py-24 bg-brand-charcoal relative">
-      <div className="absolute bottom-0 right-1/4 w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-[350px] h-[350px] bg-brand-yellow/5 rounded-full blur-[100px]  hidden md:block pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

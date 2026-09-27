@@ -41,8 +41,8 @@ export default function HeroSection({ onOpenEnrollModal }: HeroSectionProps) {
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-brand-black/95 via-brand-black/75 to-brand-black pointer-events-none" />
 
       {/* Subtly Glowing abstract dust pattern */}
-      <div className="absolute top-[20%] left-[10%] w-[350px] h-[350px] rounded-full bg-brand-yellow/10 blur-[120px] pointer-events-none animate-pulse-slow" />
-      <div className="absolute bottom-[20%] right-[15%] w-[400px] h-[400px] rounded-full bg-brand-yellow/5 blur-[150px] pointer-events-none animate-pulse-slow" />
+      <div className="absolute top-[20%] left-[10%] w-[350px] h-[350px] rounded-full bg-brand-yellow/10 blur-[120px]  hidden md:block pointer-events-none animate-pulse-slow" />
+      <div className="absolute bottom-[20%] right-[15%] w-[400px] h-[400px] rounded-full bg-brand-yellow/5 blur-[150px]  hidden md:block pointer-events-none animate-pulse-slow" />
 
       {/* Content */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center min-h-[calc(100vh-80px)] pt-12 pb-16">

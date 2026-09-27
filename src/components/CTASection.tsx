@@ -142,8 +142,8 @@ export default function CTASection({ onOpenEnrollModal }: CTASectionProps) {
       onMouseLeave={() => setIsAutoPlayPaused(false)}
     >
       {/* Dynamic Background Glow Layer */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[140px] pointer-events-none" />
-      <div className="absolute right-10 top-10 w-96 h-96 bg-brand-yellow/[0.02] rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[140px]  hidden md:block pointer-events-none" />
+      <div className="absolute right-10 top-10 w-96 h-96 bg-brand-yellow/[0.02] rounded-full blur-[120px]  hidden md:block pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}

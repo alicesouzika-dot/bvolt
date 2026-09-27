@@ -17,8 +17,8 @@ const features = [
 export default function AppSection() {
   return (
     <section id="nosso-app" className="py-24 bg-brand-charcoal relative overflow-hidden">
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[130px] pointer-events-none" />
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-brand-yellow/4 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-brand-yellow/5 rounded-full blur-[130px]  hidden md:block pointer-events-none" />
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[350px] h-[350px] bg-brand-yellow/4 rounded-full blur-[100px]  hidden md:block pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
@@ -72,7 +72,7 @@ export default function AppSection() {
             className="flex justify-center lg:justify-end"
           >
             <div className="relative">
-              <div className="absolute inset-0 bg-brand-yellow/15 blur-3xl scale-90 rounded-full pointer-events-none" />
+              <div className="absolute inset-0 bg-brand-yellow/15 blur-3xl scale-90 rounded-full  hidden md:block pointer-events-none" />
               <img
                 src="/images/photo-phone.png"
                 alt="App BVOLT Academia no celular"

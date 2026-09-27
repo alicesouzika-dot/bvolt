@@ -10,7 +10,7 @@ export default function AboutSection() {
   return (
     <section id="sobre" className="py-24 bg-brand-black relative">
       {/* Absolute glow balls */}
-      <div className="absolute right-0 top-1/4 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute right-0 top-1/4 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px]  hidden md:block pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

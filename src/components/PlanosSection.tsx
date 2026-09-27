@@ -32,8 +32,8 @@ export default function PlanosSection({ onSelectPlan }: PlanosSectionProps) {
   return (
     <section id="planos" className="py-24 bg-brand-black relative">
       {/* Light glow anchors */}
-      <div className="absolute top-[30%] left-[20%] w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-[20%] right-[10%] w-[400px] h-[400px] bg-brand-yellow/[0.04] rounded-full blur-[120px] pointer-events-none animate-pulse-slow" />
+      <div className="absolute top-[30%] left-[20%] w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px]  hidden md:block pointer-events-none" />
+      <div className="absolute bottom-[20%] right-[10%] w-[400px] h-[400px] bg-brand-yellow/[0.04] rounded-full blur-[120px]  hidden md:block pointer-events-none animate-pulse-slow" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         

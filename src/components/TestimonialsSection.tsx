@@ -28,8 +28,8 @@ export default function TestimonialsSection() {
   return (
     <section id="depoimentos" className="py-24 bg-brand-black relative overflow-hidden">
       {/* Visual background accents */}
-      <div className="absolute right-0 top-1/3 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute left-10 bottom-10 w-[250px] h-[250px] bg-brand-yellow/[0.03] rounded-full blur-[90px] pointer-events-none" />
+      <div className="absolute right-0 top-1/3 w-[300px] h-[300px] bg-brand-yellow/5 rounded-full blur-[100px]  hidden md:block pointer-events-none" />
+      <div className="absolute left-10 bottom-10 w-[250px] h-[250px] bg-brand-yellow/[0.03] rounded-full blur-[90px]  hidden md:block pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         

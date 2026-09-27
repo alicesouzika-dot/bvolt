@@ -83,7 +83,7 @@ export default function CoachesSection() {
   return (
     <section id="coaches" className="py-24 bg-brand-black relative overflow-hidden">
       {/* Decorative premium backing glows */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-brand-yellow/5 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-brand-yellow/5 rounded-full blur-[140px]  hidden md:block pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         

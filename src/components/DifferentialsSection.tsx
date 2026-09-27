@@ -10,8 +10,8 @@ export default function DifferentialsSection() {
   return (
     <section id="estrutura" className="py-24 bg-brand-black relative">
       {/* Background glow layers */}
-      <div className="absolute top-[20%] right-0 w-[400px] h-[400px] bg-brand-yellow/[0.04] rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[10%] left-0 w-[350px] h-[350px] bg-brand-yellow/[0.03] rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-[20%] right-0 w-[400px] h-[400px] bg-brand-yellow/[0.04] rounded-full blur-[120px]  hidden md:block pointer-events-none" />
+      <div className="absolute bottom-[10%] left-0 w-[350px] h-[350px] bg-brand-yellow/[0.03] rounded-full blur-[100px]  hidden md:block pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

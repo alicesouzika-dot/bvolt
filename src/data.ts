@@ -6,9 +6,9 @@
 import { Modality, Differential, Plan, Testimonial, GalleryItem, StatItem } from "./types";
 
 export const CUSTOM_ASSETS = {
-  heroBg: "/src/assets/images/bvolt-background.png",
-  aboutBg: "/src/assets/images/sobre-nos.jpg",
-  logo: "/src/assets/images/icon-bvolt.png",
+  heroBg: "/images/bvolt-background.png",
+  aboutBg: "/images/sobre-nos.jpg",
+  logo: "/images/icon-bvolt.png",
 };
 
 export const STATS_ITEMS: StatItem[] = [
@@ -44,42 +44,42 @@ export const DIFERENCIAIS_ITEMS: Differential[] = [
     title: "Equipamentos Modernos",
     description: "Aparelhos ergonômicos de última geração das melhores marcas mundiais para otimizar seus resultados.",
     iconName: "Dumbbell",
-    imageUrl: "/src/assets/images/equipamentos.png"
+    imageUrl: "/images/equipamentos.png"
   },
   {
     id: "dif-2",
     title: "Atendimento Personalizado",
     description: "Treinos e avaliações montados sob medida para seu biotipo, metas individuais e limitações.",
     iconName: "User",
-    imageUrl: "/src/assets/images/atendimento.png"
+    imageUrl: "/images/atendimento.png"
   },
   {
     id: "dif-3",
     title: "Ambiente Climatizado",
     description: "Climatização ideal com renovação constante de ar para manter seu rendimento sempre no máximo.",
     iconName: "Wind",
-    imageUrl: "/src/assets/images/ambiente.png"
+    imageUrl: "/images/ambiente.png"
   },
   {
     id: "dif-4",
     title: "Treino Adaptado",
     description: "Métodos dinâmicos ajustáveis à sua agenda de trabalho, viagem ou rotina corrida.",
     iconName: "Layers",
-    imageUrl: "/src/assets/images/treino.png"
+    imageUrl: "/images/treino.png"
   },
   {
     id: "dif-5",
     title: "Equipe Especializada",
     description: "Fisiologistas e educadores físicos certificados dispostos a corrigir sua postura e potencializar sua força.",
     iconName: "ShieldCheck",
-    imageUrl: "/src/assets/images/equipe.png"
+    imageUrl: "/images/equipe.png"
   },
   {
     id: "dif-6",
     title: "Localização Privilegiada",
     description: "Localizado na Av. Dedo de Deus, de fácil acesso e excelente infraestrutura de estacionamento.",
     iconName: "MapPin",
-    imageUrl: "/src/assets/images/localizacao.png"
+    imageUrl: "/images/localizacao.png"
   }
 ];
 

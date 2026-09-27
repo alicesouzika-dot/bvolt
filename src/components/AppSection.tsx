@@ -74,7 +74,7 @@ export default function AppSection() {
             <div className="relative">
               <div className="absolute inset-0 bg-brand-yellow/15 blur-3xl scale-90 rounded-full pointer-events-none" />
               <img
-                src="/src/assets/images/photo-phone.png"
+                src="/images/photo-phone.png"
                 alt="App BVOLT Academia no celular"
                 className="relative w-64 sm:w-80 h-auto object-contain drop-shadow-[0_0_40px_rgba(188,207,66,0.2)]"
               />
@@ -130,7 +130,7 @@ export default function AppSection() {
                 className="inline-block"
               >
                 <img
-                  src="/src/assets/images/playstore.png"
+                  src="/images/playstore.png"
                   alt="Disponível no Google Play"
                   className="h-14 w-auto object-contain drop-shadow-lg"
                 />
